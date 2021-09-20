@@ -1,10 +1,8 @@
-FROM mosherbd/devcontainer-base
+FROM brandonmosher/devcontainer-base
 
-LABEL maintainer="mosherbd@gmail.com"
+LABEL maintainer="code.brandon+docker@mosher.xyz"
 LABEL LABEL version="1.0"
 LABEL description="containerized gui development image"
-
-ARG DEBIAN_FRONTEND=noninteractive
 
 ENV DISPLAY=host.docker.internal:0.0
 
